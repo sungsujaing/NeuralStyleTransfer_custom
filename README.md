@@ -17,24 +17,24 @@ List of arts used:
 ## Profile style transfer outline
 
 <p align="center">
-<img src="ReadMe_Images/example.png" width=100%></p>
+<img src="Readme_images/example.png" width=100%></p>
 
 
 
 ## Profile picture style transfer to various arts
 
 <p align="center">
-<img src="ReadMe_Images/result.png" width=100%></p>
+<img src="Readme_images/result.png" width=100%></p>
 
 
 
 ## Example: art style transfers
 
 <p align="center">
-<img src="ReadMe_Images/example_1.png" width=60%></p>
+<img src="Readme_images/example_1.png" width=60%></p>
 
 <p align="center">
-<img src="ReadMe_Images/example_2.png" width=60%></p>
+<img src="Readme_images/example_2.png" width=60%></p>
 
 
 
