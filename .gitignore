@@ -3,6 +3,9 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+images for style transfer.pptx
+.DS_Store
+
 # C extensions
 *.so
 
