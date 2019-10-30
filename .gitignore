@@ -5,6 +5,9 @@ __pycache__/
 
 images for style transfer.pptx
 .DS_Store
+result_images
+result_images_2
+result_images_two_styles
 
 # C extensions
 *.so

@@ -1,11 +1,12 @@
 # NeuralStyleTransfer_custom
 
 Thie repository presents:
-* a VGG16-based custom **neural style transformation** (NST)
-* simple implementation of NST (TF_Hub)
+* a VGG16-based custom **neural style transformation** (***one-style*** and ***two-style***)
+* simple and fast implementation of neural style transformation (TF_Hub)
+
 using *TensorFlow* and *OpenCV*.
 
-For custom transformation, pre-trained VGG16 were used to extract styles and contents of an arbitrary image. For simple implementation using TF_Hub, a pretrained NST model was obtained from [TensorFlow Hub](https://tfhub.dev/google/magenta/arbitrary-image-stylization-v1-256/2).
+For custom transformation, a pre-trained VGG16 model were used to extract styles and contents of an arbitrary image. For simple implementation, a pre-trained neural style transfer model was obtained from [TF Hub](https://tfhub.dev/google/magenta/arbitrary-image-stylization-v1-256/2).
 
 Style art images were obtained from Google for demonstration purposes.
 
@@ -23,7 +24,31 @@ List of arts used:
 
 ## VGG16-based custom neural style transformation
 
-To be updated soon..
+### Two style transfer outline
+
+<p align="center">
+<img src="Readme_images/two_style_outline.png" width=90%></p>
+
+For two-style transfer, depth and number of the style layers can be optimized for different results.
+
+### Content image and two style images
+
+<p align="center">
+<img src="Readme_images/two_style_sample_images.png" width=90%></p>
+
+
+
+### Example: one style transfer VS two style transfer
+
+<p align="center">
+<img src="Readme_images/two_style_result.png" width=100%></p>
+
+Compared to the one-style transfer image (Weeping Woman), the effect of the second art is clearly visible in the transformed image. A few examples include:
+
+* image is toned down in general
+* some characteristics of 'Starry Night' such as blue tones and line patterns are overlayed in the image (especially in the white background)
+
+Many hyperparameters are involved in this fitting process. Thus, based on specific purposes, hyperparameters can be freely adjusted to create unique results. For the fast implementation of general neural style transfer (limited to one-style), a pre-trained model on TF_hub can be utilized as described below.
 
 ## Simple implementation of neural style transformation using TF_Hub
 
