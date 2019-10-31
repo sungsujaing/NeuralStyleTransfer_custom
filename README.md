@@ -43,12 +43,26 @@ For two-style transfer, depth and number of the style layers can be optimized fo
 <p align="center">
 <img src="Readme_images/two_style_result.png" width=100%></p>
 
-Compared to the one-style transfer image (Weeping Woman), the effect of the second art is clearly visible in the transformed image. A few examples include:
+
+
+#### One-style transformation
+
+<p align="center">
+<img src="Readme_images/one-style.gif" width=60%></p>
+
+
+
+#### Two-style transformation
+
+<p align="center">
+<img src="Readme_images/two-style.gif" width=60%></p>
+
+Compared to the one-style transfer image (Weeping Woman), the effect of the second art is clearly visible in the two-style transfer image. In the two-style image:
 
 * image is toned down in general
 * some characteristics of 'Starry Night' such as blue tones and line patterns are overlayed in the image (especially in the white background)
 
-Many hyperparameters are involved in this fitting process. Thus, based on specific purposes, hyperparameters can be freely adjusted to create unique results. For the fast implementation of general neural style transfer (limited to one-style), a pre-trained model on TF_hub can be utilized as described below.
+Many hyperparameters are involved in this fitting process. Thus, based on specific purposes, hyperparameters can be adjusted to create unique results. For the fast implementation of general neural style transfer (limited to one-style), a pre-trained model on TF_hub can be utilized as described below.
 
 ## Simple implementation of neural style transformation using TF_Hub
 
