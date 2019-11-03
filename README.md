@@ -6,7 +6,7 @@ Thie repository presents:
 
 using *TensorFlow* and *OpenCV*.
 
-For custom transformation, a pre-trained VGG16 model were used to extract styles and contents of an arbitrary image. For simple implementation, a pre-trained neural style transfer model was obtained from [TF Hub](https://tfhub.dev/google/magenta/arbitrary-image-stylization-v1-256/2).
+For custom transformation, a pre-trained VGG16 model was used to extract styles and contents of an arbitrary image. For simple implementation, a pre-trained neural style transfer model was obtained from [TF Hub](https://tfhub.dev/google/magenta/arbitrary-image-stylization-v1-256/2).
 
 Style art images were obtained from Google for demonstration purposes.
 
