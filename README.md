@@ -66,7 +66,7 @@ Many hyperparameters are involved in this fitting process. Thus, based on specif
 
 ## Simple implementation of neural style transformation using TF_Hub
 
-### Profile style transfer outline
+### Profile picture style transfer outline
 
 <p align="center">
 <img src="Readme_images/example.png" width=100%></p>
